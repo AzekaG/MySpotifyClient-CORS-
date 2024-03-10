@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MySpotifyAPI</title>
+    <link rel="stylesheet" href="site.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="/spotify-logo.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.css" />
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.theme.css" />
+
+    <script src="jquery-ui-1.13.2.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+    <script src="JsRenderPage.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+
+
+
+
+<body>
+
+    <main>
+        <label id="q">qq</label>
+        <video autoplay muted loop id="myVideo">
+            <source src="https://www.shutterstock.com/shutterstock/videos/1109683655/preview/stock-footage-retro-futuristic-s-style-drive-in-neon-city-seamless-loop-of-cyberpunk-sunset-landscape-with-a.webm" type="video/mp4">
+        </video>
+
+        <div class="mainBox">
+
+            <div class="headerIndex adminHeaderIndex">
+                <div class="menu_side">
+                    <h1>Playlist</h1>
+                    <div class="playlist">
+                        <h4 class="active" id="GenreManagment"><span></span><i class="bi bi-plus-circle"></i><a id="btnAddManagment">Управление жанрами</a></h4>
+                        <h4 class="noactive" id="AddManagment"><span></span><i class="bi bi-plus-circle"></i><a class="btnMediaManagment">Управление песнями </a></h4>
+                        <h4 class="noactive" id="AccManagment"><span></span><i class="bi bi-plus-circle"></i><a class="btnAccManagment">Управление аккаунтами </a></h4>
+                        <h4 class="active" id="HomeBtn"><span></span><i class="bi bi-house"></i><a>Домой</a></h4>
+
+                    </div>
+                </div>
+
+
+                <div class="song_side" id="song_sideId">
+
+                    <div class="adminContent">
+                        <ul class='adminGenreContentUl' style="overscroll-behavior-y:contain">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+ </main>
+
+
+
+
+</body>
+</html>

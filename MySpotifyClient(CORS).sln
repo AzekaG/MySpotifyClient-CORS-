@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySpotifyClient(CORS)", "MySpotifyClient(CORS)\MySpotifyClient(CORS).csproj", "{95ADA744-8521-4F6B-A9D0-10BDE7C9CA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95ADA744-8521-4F6B-A9D0-10BDE7C9CA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ADA744-8521-4F6B-A9D0-10BDE7C9CA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ADA744-8521-4F6B-A9D0-10BDE7C9CA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ADA744-8521-4F6B-A9D0-10BDE7C9CA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCBC05B8-1DAA-41E3-85E4-D763F03D1C95}
+	EndGlobalSection
+EndGlobal
